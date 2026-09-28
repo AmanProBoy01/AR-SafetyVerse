@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23f59e0b'><path d='M12 2L1 21h22L12 2zm0 4.5l8 13H4l8-13zM11 11h2v4h-2zm0 6h2v2h-2z'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="description" content="SafeSkill AR — AR-Based Vocational Training Simulator for Industrial Safety in Jharkhand's Mining & Manufacturing Sector (SIH26041)" />
+    <title>SafeSkill AR — Industrial Safety Simulator | Jharkhand Mining & Manufacturing</title>
+    <!-- Tailwind Play CDN for immediate reactive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              mining: {
+                dark: '#0c0a09',
+                gold: '#f59e0b',
+                ember: '#ea580c'
+              }
+            },
+            fontFamily: {
+              tech: ['Chakra Petch', 'sans-serif'],
+              sans: ['Inter', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 overflow-x-hidden select-none antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
