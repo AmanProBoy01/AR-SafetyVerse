@@ -11,7 +11,7 @@ export default function CertificateModal({ trainee, score, onClose, language }) 
     window.print();
   };
 
-  const certId = `JH-SAFESKILL-2026-${Math.floor(100000 + Math.random() * 900000)}`;
+  const certId = `JH-SAFETYVERSE-2026-${Math.floor(100000 + Math.random() * 900000)}`;
   const issueDate = new Date().toLocaleDateString('en-IN', {
     day: '2-digit',
     month: 'short',
@@ -66,7 +66,7 @@ export default function CertificateModal({ trainee, score, onClose, language }) 
               Certificate of Safety Competency
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 tracking-wider">
-              AR-Based Industrial Safety & Emergency Protocol Simulator (SIH26041)
+              AR SafetyVerse — Industrial Safety & Emergency Protocol Simulator (SIH26041)
             </p>
           </div>
 
@@ -81,7 +81,7 @@ export default function CertificateModal({ trainee, score, onClose, language }) 
             </h2>
 
             <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
-              has successfully completed simulated practical training in <span className="text-amber-400 font-semibold">{trainee.trade?.nameEn || 'Industrial Safety Technician'}</span> at <span className="text-slate-200 font-semibold">{trainee.institute || 'BCCL Dhanbad Vocational Training Center'}</span>.
+              has successfully completed AR SafetyVerse simulated practical training in <span className="text-amber-400 font-semibold">{trainee.trade?.nameEn || 'Industrial Safety Technician'}</span> at <span className="text-slate-200 font-semibold">{trainee.institute || 'BCCL Dhanbad Vocational Training Center'}</span>.
             </p>
 
             <p className="text-xs text-slate-400 max-w-lg mx-auto">

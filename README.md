@@ -1,4 +1,4 @@
-# 🏭 SafeSkill AR — Industrial Safety Simulator
+# 🏭 AR SafetyVerse — Industrial Safety Simulator
 
 > **SIH Problem Statement SIH26041:** AR-Based Vocational Training Simulator for Industrial Safety in Jharkhand's Mining & Manufacturing Sector.
 
@@ -12,7 +12,7 @@
 ## 📌 Problem Statement Overview
 In hazardous sectors like Jharkhand's underground coal mining (Dhanbad, Jharia) and heavy steel manufacturing (Bokaro, Jamshedpur), practical training in dangerous situations (such as methane accumulation, roof strata fall, live electrical fires, or ladle crane hazards) is life-threatening and economically unfeasible for vocational trainees (ITI and Polytechnic apprentices).
 
-**SafeSkill AR** solves this by providing a zero-install, cross-platform **WebAR and 3D spatial training simulator**. Workers can experience dangerous industrial scenarios, spot hazards in real-time, make critical emergency decisions, and earn verified safety competency certificates without any physical danger.
+**AR SafetyVerse** solves this by providing a zero-install, cross-platform **WebAR and 3D spatial training simulator**. Workers can experience dangerous industrial scenarios, spot hazards in real-time, make critical emergency decisions, and earn verified safety competency certificates without any physical danger.
 
 ---
 
@@ -59,10 +59,10 @@ In hazardous sectors like Jharkhand's underground coal mining (Dhanbad, Jharia) 
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/AmanProBoy01/safeskill-ar.git
+git clone https://github.com/AmanProBoy01/ar-safetyverse.git
 
 # Navigate into project directory
-cd safeskill-ar
+cd ar-safetyverse
 
 # Install dependencies
 npm install

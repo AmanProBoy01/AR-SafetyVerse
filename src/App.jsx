@@ -143,7 +143,7 @@ export default function App() {
       {/* Footer */}
       <footer className="py-3 px-4 text-center text-xs text-slate-500 border-t border-slate-900 bg-slate-950">
         <p>
-          SafeSkill AR • SIH26041 Prototype • Developed for Jharkhand Mining & Manufacturing Vocational Safety Training (DGMS & Factories Act)
+          AR SafetyVerse • SIH26041 Prototype • Developed for Jharkhand Mining & Manufacturing Vocational Safety Training (DGMS & Factories Act)
         </p>
       </footer>
 
