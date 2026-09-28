@@ -59,7 +59,7 @@ In hazardous sectors like Jharkhand's underground coal mining (Dhanbad, Jharia) 
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/<YOUR_USERNAME>/safeskill-ar.git
+git clone https://github.com/AmanProBoy01/safeskill-ar.git
 
 # Navigate into project directory
 cd safeskill-ar
